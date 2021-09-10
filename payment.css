@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url("https://images.givelively.org/nonprofits/96021e39-18f4-48ab-be2e-5f054e53312a/background_image/food-for-his-children-inc_processed_af0604ceb22cc078d4ef77b4684c2344_background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main{
+    min-height: 100vh;
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    flex:1 1 40rem;
+    height:30rem;
+    background:url(images/donation.jpg),url(images/about-frame-img.png) no-repeat;;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+    border-radius: 100px;
+}
+
+.content{
+    flex:1 1 40rem;
+    padding:2rem;
+    color: #fff;
+    border: 2px goldenrod solid;
+    background: transparent;
+    margin-left: 3rem;
+    border-radius: 20px;
+    line-height: 1.5;
+}
+.content h1{
+    font-size: 4rem;
+    color:greenyellow;
+}
+
+.content p{
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
